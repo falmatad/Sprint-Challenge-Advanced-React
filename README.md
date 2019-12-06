@@ -23,9 +23,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+    <!-- Class components are still used in legacy code in the instury so knowing how to use them will help any developer to support such a code base. -->
 - [ ] Name three lifecycle methods and their purposes.
+    <!-- One life-cyle method is the Render, this is where we will render our UI to the Virtual Dom and the virtual dom can check if teh REAL DOM has recieved the latest copy of what's on the Virtual   -->
+    <!-- One life-cyle method is the component did mount. This runs after the render when all elements have rendered to the dom. This is a good place to make API calls and sideffect methods. -->
+    <!-- ComponentDidUpdate is another lifecycle method that runs based on props and data changes that are going on within the app. -->
 - [ ] What is the purpose of a custom hook?
+    <!-- Custom hooks abstract complex logic that has to be written in a component, and just passes it destructured values that any component can use. -->
 - [ ] Why is it important to test our apps?
+    <!-- Writing tests will make us write better code and provide cushin for later updating or adding of features to the app or component -->
 
 ## Project Set Up
 
