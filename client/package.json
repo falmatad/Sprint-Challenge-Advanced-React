@@ -12,7 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,7 +32,6 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "jest-dom": "^4.0.0"
+    "@testing-library/react": "^9.3.2"
   }
 }
